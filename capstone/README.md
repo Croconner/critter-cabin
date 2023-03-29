@@ -9,7 +9,7 @@ Install PostgreSQL on your machine.
 Using bash navigate to critter-cabin/capstone/java/database and run the command 'sh create.sh'.
 Update the database configuration in application.properties to match your database configuration.
 Run the application by executing npm run serve in your terminal.
-Open your browser and navigate to http://localhost:8080 to view the application.
+Making sure your backend is running, open your browser and navigate to http://localhost:8080 to view the application.
 Functionality
 User Accounts
 The application allows users to sign up and log in as volunteers. Once a user signs up, they will receive an email with their username and password. When the user logs in for the first time, they will be prompted to reset their password. The application uses Spring Security to handle user authentication and authorization.
